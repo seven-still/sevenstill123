@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FqlBMIx+8XXmzc97E4J1vXX5kW0c9iqRLJ4YEhUJ9u70WKvfq4XlHjpunf+4Y1lE33vLFDpjDsIodpOmIBTB4Q==",
+  "success": true,
+  "projectFilePath": "D:\\ИТ курс Файлове\\МОДУЛ 5\\Village - I_O\\Exam_24102021_Village\\Exam_24102021_Village\\Exam_24102021_Village.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

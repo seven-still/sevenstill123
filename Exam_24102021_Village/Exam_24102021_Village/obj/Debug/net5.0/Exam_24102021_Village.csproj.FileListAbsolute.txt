@@ -1,0 +1,16 @@
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.exe
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.deps.json
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.runtimeconfig.json
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.runtimeconfig.dev.json
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.dll
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\bin\Debug\net5.0\Exam_24102021_Village.pdb
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.csproj.AssemblyReference.cache
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.GeneratedMSBuildEditorConfig.editorconfig
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.AssemblyInfoInputs.cache
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.AssemblyInfo.cs
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.csproj.CoreCompileInputs.cache
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.dll
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\refint\Exam_24102021_Village.dll
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.pdb
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\Exam_24102021_Village.genruntimeconfig.cache
+D:\ИТ курс Файлове\МОДУЛ 5\Village - I_O\Exam_24102021_Village\Exam_24102021_Village\obj\Debug\net5.0\ref\Exam_24102021_Village.dll
