@@ -10,7 +10,7 @@ public class Controller
     private List<Receipt> receipts;
     public Controller()
     {
-        this.products = new List<Product>();//колекционира всички продукти от командите Product И Service.
+        this.products = new List<Product>();
         this.receipts = new List<Receipt>();
     }
 
@@ -30,27 +30,26 @@ public class Controller
 
     public string ProcessCheckoutCommand(List<string> args)
     {
-        Receipt receipt = new Receipt(args[0]); //създава нова фактура с името на клиента
-
+        Receipt receipt = new Receipt(args[0]); 
         foreach (var product in this.products)
         {
-            receipt.AddProduct(product);//всички продукти регистрирани до момента в системата (this.products) се добавят в новосъздадената фактура
+            receipt.AddProduct(product);
         }
         this.receipts.Add(receipt);
-        this.products.Clear();//всички продукти се премахват от системата и се пазят само във фактурата. Всяка нова команда Product или Service се считат за нов клиент
+        this.products.Clear();
         return $"Customer checked out for a total of ${receipt.Total:f2}.";
     }
 
     public string ProcessInfoCommand(List<string> args)
     {
         StringBuilder sb = new StringBuilder();
-        if (args[0].Equals("Customer"))//ако командата е Info последвана от Customer връщаме информация за продуктите, които си е поръчал текущие клиент до момента(тези, които сме получили при командите Product Или Service)
+        if (args[0].Equals("Customer"))
         {            
             sb.AppendLine("Current customer has:");
             sb.AppendLine($"Products: {this.products.Count}");
             sb.AppendLine($"Total Bill: ${this.products.Sum(p => p.Price):f2}");
         }
-        else if (args[0].Equals("Shop"))//ако командата е Info последвана от Shop се връща информация за фактурите до момента, ако няма добавени фактури в receipts отпечатваме Receipts: No receipts
+        else if (args[0].Equals("Shop"))
         {
             if (this.receipts.Count > 0)
             {
@@ -63,7 +62,7 @@ public class Controller
 
             sb.AppendLine("Receipts: No receipts");
         }
-        else //този else ако получим Info Pesho (примерно) той вече си е купил продуктите (съществува такава фактура поръчката е завършена). Той си купува продуктите когато кажем Checkout И се изпълни метода ProcessCheckoutCommand -> където създаваме вече фактурата и добавяме всички налични продукти от products
+        else
         {
             var currentCustomer = this.receipts.Where(r => r.CustomerName.Equals(args[0])).FirstOrDefault();
             sb.AppendLine(currentCustomer.ToString());
