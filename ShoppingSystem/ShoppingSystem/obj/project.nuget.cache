@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GgntL6L6THSFS/lCka/OmUOPYwmxGz+7ZQcmLRHODL85KhzdxWBtylJPqvhhjJMVXat3DpznpuqdbgA2mrPf4w==",
+  "success": true,
+  "projectFilePath": "D:\\ИТ курс Файлове\\МОДУЛ 5\\ShoppingSystem - Structure\\ShoppingSystem\\ShoppingSystem\\ShoppingSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
